@@ -16,7 +16,7 @@ public class TwoWords {
 		System.out.println(word2 + " " + word2.length());
 
 		word1 = word1.toLowerCase(); 
-		word1 = word2.toLowerCase();/*makes sure there are no issues because of 
+		word2 = word2.toLowerCase();/*makes sure there are no issues because of 
 		the words entered differently with capital letters */
 
 		if(word1.equals(word2))	{ //checks the words are same or not depending on that prints true or false 
